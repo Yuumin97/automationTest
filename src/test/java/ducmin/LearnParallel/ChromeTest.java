@@ -25,16 +25,16 @@ public class ChromeTest {
     public void ChromeTestMethod1() {
         //Initialize the chrome driver
         System.out.println("The thread ID for Chrome is " + Thread.currentThread().getId());
-        driver.get("https://anhtester.com");
-        driver.findElement(By.xpath("//h3[normalize-space()='Website Testing']")).click();
+        driver.get("https://facebook.com");
+        driver.findElement(By.xpath("//img[@alt='Facebook1']")).click();
     }
 
     @Test
     public void ChromeTestMethod2() {
         //Initialize the chrome driver
         System.out.println("The thread ID for Chrome is " + Thread.currentThread().getId());
-        driver.get("https://anhtester.com");
-        driver.findElement(By.xpath("//h3[normalize-space()='Website Testing']")).click();
+        driver.get("https://facebook.com");
+        driver.findElement(By.xpath("//img[@alt='Facebook']")).click();
     }
 
     @AfterMethod

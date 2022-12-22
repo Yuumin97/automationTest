@@ -83,7 +83,6 @@ public class ExcelHelpers {
         }
     }
 
-    //Gọi ra hàm này nè
     public String getCellData(String columnName, int rownum) {
         return getCellData(rownum, columns.get(columnName));
     }
@@ -286,7 +285,6 @@ public class ExcelHelpers {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return data;
     }
 
